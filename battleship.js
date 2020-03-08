@@ -76,7 +76,7 @@ function fireTorpedo(e) {
 			
 		// if player clicks a square with a ship, change the color and change square's value
 		} else if (gameBoard[row][col] == 1) {
-			e.target.style.background = 'red';
+			e.target.style.background = 'blue';
 			// set this square's value to 2 to indicate the ship has been hit
 			gameBoard[row][col] = 2;
 			
